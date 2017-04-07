@@ -1,0 +1,16 @@
+{
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "Mini HTTP Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "author": "Denis Kohl",
+  "license": "ISC",
+  "dependencies":{
+	"express":"latest",
+	"body-parser" : "latest"
+	}
+}
